@@ -1,0 +1,281 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #2d2d2d;
+}
+
+.navbar-item {
+    list-style: none;
+    padding: 20px;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.navbar-items {
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar-item:hover,
+.navbar-item-active {
+    background-color: #92c14d;
+}
+
+.nav-button {
+    background-color: #92c14d;
+    border-radius: 10%;
+    padding: 10px;
+    width: 50px;
+    margin-right: 50px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.brand-center h3 {
+    text-align: center;
+    font-weight: 600;
+    color: #fff;
+}
+
+.brand-center h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #fff;
+}
+
+.header-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.address {
+    text-align: center;
+}
+
+.address p {
+    text-align: right;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.7), rgba(255, 255, 255, 1)), url('https://сельхозпортал.рф/wp-content/uploads/2016/07/dorozhka.jpg') no-repeat;
+    background-size: cover;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+/* Основная страинца */
+
+main {
+    margin-top: 20px;
+}
+
+.aside-head,
+.aside-head h3 {
+    background-color: #71b238;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 7px;
+    text-transform: uppercase
+}
+
+.aside-body {
+    left: 0
+}
+
+aside li {
+    background-color: #f2f2f2;
+    list-style: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: -40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+aside a {
+    color: black;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 40px;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+aside li:hover {
+    background-color: #92c14d;
+    cursor: pointer;
+}
+
+.red {
+    color: red !important;
+}
+
+
+/* Главная секция */
+
+.plitka {
+    border: 1px solid #92c14d;
+    margin-top: 27px;
+    min-width: 150px;
+}
+
+.plitka-img {
+    text-align: center;
+    padding: 10px;
+}
+
+.plitka-content {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.plitka-content h5 {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #5e5e5e;
+    text-decoration: underline;
+}
+
+.plitka-button {
+    position: relative;
+    background-color: #71b238;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-left: 30%;
+}
+
+.products-section-title {
+    background-color: #71b238;
+    padding: 17px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-top: 2%;
+    text-align: center;
+}
+
+.product-card {
+    border: 1px solid #71b238;
+    display: inline-block;
+    min-width: 30%;
+    margin: 10px 10px;
+    position: relative;
+    border-radius: .25em;
+    padding: 10px 5px;
+    -webkit-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 1px 1px 3px -1px rgba(0, 0, 0, 0.75);
+}
+
+.product-card:hover {
+    -webkit-box-shadow: 1px 1px 27px 3px rgba(0, 0, 0, 0.55);
+    -moz-box-shadow: 1px 1px 27px 3px rgba(0, 0, 0, 0.55);
+    box-shadow: 1px 1px 27px 3px rgba(0, 0, 0, 0.55);
+    transition: 0.5s;
+    transform: scale(1.05)
+}
+
+.products {
+    position: relative;
+    text-align: center;
+}
+
+.product-card-description {
+    margin-top: 10px;
+}
+
+.main-images {
+    display: inline-block;
+    text-align: center;
+}
+
+.minimized {
+    margin: 10px 5px;
+    text-align: center;
+    position: relative;
+}
+
+.dacha-head {
+    border-bottom: 3px solid #71b238;
+    margin-bottom: 30px;
+    padding-bottom: 10px;
+}
+
+.dacha {
+    text-align: center;
+    font-weight: 200;
+    font-style: italic;
+}
+
+@media only screen and (max-width:61.9375em) and (min-width:48em) {
+    .product-card {
+        border: 1px solid #71b238;
+        display: inline-block;
+        min-width: 100%;
+        position: relative;
+        margin-top: 15px;
+    }
+    .aside-head h3 {
+        font-size: 14px;
+    }
+    aside {
+        width: 100%;
+    }
+}
+
+.page-footer {
+    background-color: #2d2d2d;
+    color: white;
+}
+
+.brand-center h3,
+.brand-center h4 {
+    color: #71b238;
+}
+
+
+/* Gallery */
+
+.gallery-item {
+    display: inline-block;
+    margin: 5px;
+}
+
+.gallery {
+    text-align: center;
+}
+
+
+/* Product page */
+
+.production-item {
+    border: 1px solid #BBBBBB;
+    margin-top: 15px;
+}

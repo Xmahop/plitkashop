@@ -1,0 +1,50 @@
+{% extends "plitka/base.html" %} {% load staticfiles %} {% block title %}Галерея работ{% endblock %} {% block content %}
+<section class="gallery">
+    <div class="clearfix col-md-12">
+        <a class="lightboxgallery-gallery-item gallery-item" target="_blank" href="{%static 'img/gallery/1.jpg'%}" data-title="data title" data-alt="data alt" data-desc="data descr">
+            <div>
+                <img src="{%static 'img/gallery/1.jpg'%}" width="250" title="title" alt="alt">
+            </div>
+        </a>
+        <a class="lightboxgallery-gallery-item gallery-item" target="_blank" href="{%static 'img/gallery/1.jpg'%}" data-title="data title" data-alt="data alt" data-desc="data descr">
+            <div>
+                <img src="{%static 'img/gallery/1.jpg'%}" width="250" title="title" alt="alt">
+            </div>
+        </a>
+        <a class="lightboxgallery-gallery-item gallery-item" target="_blank" href="{%static 'img/gallery/1.jpg'%}" data-title="data title" data-alt="data alt" data-desc="data descr">
+            <div>
+                <img src="{%static 'img/gallery/1.jpg'%}" width="250" title="title" alt="alt">
+            </div>
+        </a>
+        <a class="lightboxgallery-gallery-item gallery-item" target="_blank" href="{%static 'img/gallery/1.jpg'%}" data-title="data title" data-alt="data alt" data-desc="data descr">
+            <div>
+                <img src="{%static 'img/gallery/1.jpg'%}" width="250" title="title" alt="alt">
+            </div>
+        </a>
+        <a class="lightboxgallery-gallery-item gallery-item" target="_blank" href="{%static 'img/gallery/1.jpg'%}" data-title="data title" data-alt="data alt" data-desc="data descr">
+            <div>
+                <img src="{%static 'img/gallery/1.jpg'%}" width="250" title="title" alt="alt">
+            </div>
+        </a>
+        <a class="lightboxgallery-gallery-item gallery-item" target="_blank" href="{%static 'img/gallery/1.jpg'%}" data-title="data title" data-alt="data alt" data-desc="data descr">
+            <div>
+                <img src="{%static 'img/gallery/1.jpg'%}" width="250" title="title" alt="alt">
+            </div>
+        </a>
+    </div>
+</section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="{%static 'js/lightboxgallery-min.js'%}"></script>
+<script type="text/javascript">
+    jQuery(function($) {
+        $(document).on('click', '.lightboxgallery-gallery-item', function(event) {
+            event.preventDefault();
+            $(this).lightboxgallery({
+                showCounter: true,
+                showTitle: true,
+                showDescription: true
+            });
+        });
+    });
+</script>
+{% endblock %}

@@ -1,0 +1,179 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.navbar-nav {
+    margin: 0 auto;
+    text-align: center;
+    font-weight: 400;
+    font-size: 100%;
+}
+
+.nav-link {
+    color: white !important;
+}
+
+.navbar {
+    background-color: #2d2d2d;
+}
+
+.navbar-item {
+    list-style: none;
+    padding: 20px;
+    text-transform: uppercase;
+    height: 100%;
+}
+
+.navbar-items {
+    margin: 0 auto;
+    position: relative;
+}
+
+.navbar-item:hover,
+.navbar-item-active {
+    background-color: #92c14d;
+}
+
+.nav-button {
+    background-color: #92c14d;
+    border-radius: 10%;
+    padding: 10px;
+    width: 50px;
+    margin-right: 50px;
+}
+
+.navbar {
+    padding: 0;
+}
+
+.brand-center h3 {
+    text-align: center;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.brand-center h4 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 600;
+    font-size: 1em;
+    color: #fff;
+}
+
+.header-info {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.address {
+    text-align: center;
+}
+
+.address p {
+    text-align: right;
+}
+
+header {
+    background-color: #92c14d;
+}
+
+.logo {
+    text-align: center;
+}
+
+
+/* Основная страинца */
+
+main {
+    margin-top: 20px;
+}
+
+.aside-head,
+.aside-head h3 {
+    background-color: #71b238;
+    font-size: 1.1em;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+    padding-top: 11px;
+    padding-bottom: 7px;
+    text-transform: uppercase
+}
+
+.aside-body {
+    left: 0
+}
+
+aside li {
+    background-color: #f2f2f2;
+    list-style: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: -40px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+aside a {
+    color: black;
+    font-weight: 600;
+    font-size: 0.9em;
+    line-height: 40px;
+}
+
+aside a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+aside li:hover {
+    background-color: #92c14d;
+    cursor: pointer;
+}
+
+.red {
+    color: red !important;
+}
+
+
+/* Главная секция */
+
+.plitka {
+    border: 2px solid #92c14d;
+    margin-top: 27px;
+}
+
+.plitka-img {
+    text-align: center;
+    padding: 10px;
+}
+
+.plitka-content {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.plitka-content h5 {
+    font-weight: 600;
+    font-size: 1.1em;
+    color: #5e5e5e;
+    text-decoration: underline;
+}
+
+.plitka-button {
+    position: relative;
+    background-color: #71b238;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    margin-left: 30%;
+}
+
+.text-center {
+    background-color: #71b238;
+    padding: 17px;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+}

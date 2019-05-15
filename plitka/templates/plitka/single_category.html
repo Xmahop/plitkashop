@@ -1,0 +1,26 @@
+{% extends "plitka/base.html" %}
+{% load staticfiles %}
+{% block title %}Каталог продукции{% endblock %}
+{% block content%}
+{%for cat in category%}
+<h3 class="products-section-title">{{cat.name}}</h3>
+{%endfor%}
+{% comment %} {%for i in item%}
+
+{%endfor%} {% endcomment %}
+
+<section class="our-products col-md-12">
+    {%for i in item%}
+    <div data-aos="flip-up" class="product-card col-md-3 text-center">
+            <img src="{{i.image.url}}" width="150" alt="">
+            <div class="product-card-description">
+                <p><strong>{{i.name}}</strong></p>
+                <p><i>{{i.size}}</i></p>
+                <p>{{i.count}}</p>
+                <p>{{i.description}}</p>
+            </div>
+        </div>
+    {%endfor%}
+                            </section>
+{%endblock%}
+

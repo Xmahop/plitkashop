@@ -1,0 +1,94 @@
+{% extends "plitka/base.html" %}
+{% load staticfiles %}
+{% block title %}Главная{% endblock %}
+{% block content %}
+<section class="carousel col-md-12">
+                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                    <ol class="carousel-indicators">
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                    </ol>
+                                    <div class="carousel-inner">
+                                        <div class="carousel-item active">
+                                            <img class="d-block w-100" src="{% static "img/slider-1.jpg" %}" alt="First slide">
+                                        </div>
+                                        <div class="carousel-item">
+                                            <img class="d-block w-100" src="{%static "img/slider-2.jpg"%}" alt="Second slide">
+                                        </div>
+                                    </div>
+                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Previous</span>
+                                    </a>
+                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                        <span class="sr-only">Next</span>
+                                    </a>
+                                </div>
+                            </section>
+                            <section class="our-products col-md-12">
+                                <h3 class="products-section-title">О нас</h3>
+                                <div class="products">
+                                    <div data-aos="flip-up" class="product-card col-md-3">
+                                        <img src="{% static "img/katushka.jpg" %}" width="150" alt="">
+                                        <div class="product-card-description">
+                                            <p><strong>"Катушка"</strong></p>
+                                            <p><i>225х140х60, 136 кг/м2</i></p>
+                                            <p>40 шт, 1 м2</p>
+                                            <p>Серая - 410 руб.,</br>
+                                                красная, черная, коричневая, желтая, зеленая, синяя - 460 руб.</p>
+                                        </div>
+                                    </div>
+                                    <div data-aos="flip-up" class="product-card col-md-3">
+                                        <img src="{% static "img/katushka.jpg" %}" width="150" alt="">
+                                        <div class="product-card-description">
+                                            <p><strong>"Катушка"</strong></p>
+                                            <p><i>225х140х60, 136 кг/м2</i></p>
+                                            <p>40 шт, 1 м2</p>
+                                            <p>Серая - 410 руб.,</br>
+                                                красная, черная, коричневая, желтая, зеленая, синяя - 460 руб.</p>
+                                        </div>
+                                    </div>
+                                    <div data-aos="flip-up" class="product-card col-md-3">
+                                        <img src="{% static "img/katushka.jpg" %}" width="150" alt="">
+                                        <div class="product-card-description">
+                                            <p><strong>"Катушка"</strong></p>
+                                            <p><i>225х140х60, 136 кг/м2</i></p>
+                                            <p>40 шт, 1 м2</p>
+                                            <p>Серая - 410 руб.,</br>
+                                                красная, черная, коричневая, желтая, зеленая, синяя - 460 руб.</p>
+                                        </div>
+                                    </div>
+                                    <a href="#">Смотреть все продукты</a>
+                                </div>
+                            </section>
+                            <section class="about-us col-md-12">
+                                <h3 data-aos="fade-left" class="products-section-title">О нас</h3>
+                                <p>
+                                    Компания ООО «ЭлитСтрой» работает в сфере производства тротуарной плитки более 11 лет. За это время мы собрали огромное количество отзывов от разных клиентов без каких-либо нареканий с их стороны. Мы занимаемся производством и дальнейшей эксплуатацией
+                                    тротуарной плитки в Ногинском районе. Главная деятельность компании направлена на осуществление монолитных строительных, а также облицовочных работ в регионе. Мы успешно занимаемся производством необходимых материалов,
+                                    включая тротуарную плитку для дачных участков, уличную брусчатку 30х30, бордюрный и облицовочный камень.
+                                </p>
+                                .
+                                <div data-aos="flip-up" class="main-images col-md-12">
+                                    <img src="{% static "img/katushka.jpg" %}" class="minimized" alt="фото" />
+                                    <img src="{% static "img/katushka.jpg" %}" class="minimized" alt="фото" />
+                                    <img src="{% static "img/katushka.jpg" %}" class="minimized" alt="фото" />
+                                </div>
+                                <p>
+                                    По всем основным показателям результаты нашего производства считаются самыми востребованными и высококачественными. За такой относительно непродолжительный период существования на рынке наша компания завоевала безупречную репутацию и может на равных конкурировать
+                                    с любыми другими крупными компаниями по изготовлению тротуарной плитки в Ногинском районе. «ЭлитСтрой» тротуарная плитка – это, прежде всего, высочайшее качество, надежность и результат работы современных технологий.
+                                    Все работы ведутся при помощи модернизированного немецкого оборудования, которое обеспечивает долговечность готовых материалов. Мы готовы предоставить нашим клиентам тротуарную плитку 30х30, 300х300х30, 40х40, 50х50
+                                    совершенно разной прочности, морозоустойчивость которой будет составлять не менее 200 циклов.
+                                </p>
+                                <h4 class="dacha-head">Тротуарная плитка для дачи</h4>
+                                <p class="dacha">Выбирая сотрудничество с нами, вы можете быть уверены, что все работы будут выполнены на наивысшем уровне и точно в срок. Все работы согласовываются с заказчиком.</p>
+                                <h4 class="dacha-head">Преимущества</h4>
+                                <ul>
+                                    <li>Так как мы являемся основным производителем плитки для дачи в Ногинском районе, вы сможете купить недорого уличную плитку по оригинальной цене, без наценок.</li>
+                                    <li>Мы имеем большой опыт работы, поэтому с уверенностью можем указать точные сроки производства.</li>
+                                    <li>В своей работе мы используем только современные технологии и высококачественные материалы, мы можем гарантировать, что наша садовая плитка (брусчатка Ногинский район) будет радовать вас не один десяток лет.</li>
+                                    <li>Мы предлагаем вам короткие сроки и индивидуальный подход к каждому заказчику.</li>
+                                </ul>
+                            </section>
+                            {% endblock %}
